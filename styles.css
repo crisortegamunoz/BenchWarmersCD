@@ -46,10 +46,16 @@ body {
   }
 
   .title {
-    color: #FFC107; 
+    color: #FFC107;
     -webkit-text-stroke: 0.5px #000000;
     font-weight: bold;
     font-size: 2rem;
+  }
+
+  .custom-header {
+    background-color: #FFC107; /* Amarillo personalizado */
+    color: #FFC107;               /* Letras negras */
+    font-weight: bold;
   }
 
   .card-body:hover {

@@ -1,4 +1,14 @@
+/* Import Bootstrap CSS */
+@import 'bootstrap/dist/css/bootstrap.min.css';
 
+/* Import Bootstrap Icons CSS */
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* Import Font Awesome CSS */
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+/* Import Google Fonts */
+@import 'https://fonts.googleapis.com/css2?family=Bangers&display=swap';
 
 /* Tipografía */
 body {
@@ -53,8 +63,8 @@ body {
   }
 
   .custom-header {
-    background-color: #FFC107;
-    color: #FFC107;
+    background-color: #ffbd21;
+    color: #ffbd21;
     font-weight: bold;
   }
 

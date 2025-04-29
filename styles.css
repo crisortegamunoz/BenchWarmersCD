@@ -4,13 +4,13 @@
 body {
     /*font-family: 'Bangers', cursive;*/
   }
-  
+
   #inicio {
     position: relative;
     color: white;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
   }
-  
+
   #inicio .overlay {
     position: absolute;
     top: 0;
@@ -19,7 +19,7 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
   }
-  
+
   #inicio .content {
     position: relative;
     z-index: 1;
@@ -28,17 +28,17 @@ body {
   .bg-primary {
     background-color: #003366 !important;
   }
-  
+
   .text-primary {
     color: #003366 !important;
   }
-  
+
   .btn-primary {
     background-color: #FFD700;
     border-color: #FFD700;
     color: #003366;
   }
-  
+
   .btn-primary:hover {
     background-color: #FFC107;
     border-color: #FFC107;
@@ -53,8 +53,8 @@ body {
   }
 
   .custom-header {
-    background-color: #FFC107; /* Amarillo personalizado */
-    color: #FFC107;               /* Letras negras */
+    background-color: #FFC107;
+    color: #FFC107;
     font-weight: bold;
   }
 
@@ -64,6 +64,10 @@ body {
     background-color: #ffe28b;
     transition: background-color 0.5s;
     border-radius: 0.5625rem !important;
+  }
+
+  .benchwarmer-font{
+    color: #ffbd21;
   }
 
   .instagram-icon:hover {

@@ -34,10 +34,23 @@
     </div>
   </nav>
 
-  <section id="inicio" class="d-flex align-items-center justify-content-center text-center" style="background-image: url('https://source.unsplash.com/1600x900/?volleyball'); background-size: cover; height: 100vh;">
+  <!--<section id="inicio" class="d-flex align-items-center justify-content-center text-center" style="background-image: url('https://source.unsplash.com/1600x900/?volleyball'); background-size: cover; height: 100vh;">
     <div class="overlay"></div>
     <div class="content text-white">
       <h1 class="display-3">Benchwarmers CDÑ Volleyball</h1>
+    </div>
+  </section>-->
+
+  <section id="inicio" class="d-flex align-items-center justify-content-center text-center" style="height: 100vh; position: relative; overflow: hidden;">
+    <div class="background-video">
+      <video autoplay loop muted playsinline style="position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: 80%; height: 80%; transform: translate(-50%, -50%); object-fit: cover;">
+        <source src="assets/video.mp4" type="video/mp4">
+        Tu navegador no soporta la etiqueta de video.
+      </video>
+    </div>
+    <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
+    <div class="content text-white" style="position: relative; z-index: 2;">
+      <h1 class="display-3 benchwarmer-font">Benchwarmers CDÑ Volleyball</h1>
     </div>
   </section>
 
@@ -96,7 +109,7 @@
                 <ul class="list-unstyled text-start mt-4 mb-4">
                     <li class="mb-2 text-success"><i class="bi bi-check-circle-fill me-2"></i> Entrenamiento en cancha</li>
                     <li class="mb-2 text-success"><i class="bi bi-check-circle-fill me-2"></i> Preparación Física</li>
-                    <li class="mb-2 text-success"><i class="bi bi-check-circle-fill me-2"></i> 16 clases al mes, 4 por semana.</li>
+                    <li class="mb-2 text-success"><i class="bi bi-check-circle-fill me-2"></i> 16 clases al mes, 4 por semana</li>
                     <li class="mb-2 text-success"><i class="bi bi-check-circle-fill me-2"></i> Acceso a grupo de Whatsapp informativo</li>
                 </ul>
               </div>
